@@ -4,8 +4,6 @@ FROM $BUILD_FROM
 ENV LANG=C.UTF-8
 ENV NODE_ENV production
 
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-
 RUN apk add --no-cache \
     tzdata \
     nodejs \
