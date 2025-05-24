@@ -7,6 +7,8 @@ RUN apk add --no-cache \
     npm
 
 COPY rootfs /
+
+RUN chmod a+x /run.sh
 RUN cd / && npm install --unsafe-perm
 
 ENV NODE_ENV production
