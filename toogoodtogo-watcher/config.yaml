@@ -1,8 +1,8 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: TooGoodToGo watcher add-on
-version: "0.6.0"
+name: TooGoodToGo watcher
+version: "0.6.1"
 slug: toogoodtogo-watcher
-description: Add-on for monitoring your favorite TooGoodToGo businesses
+description: Add-on for monitoring your favorite TooGoodToGo businesses.
 url: "https://github.com/marklagendijk/ha-toogoodtogo-watcher/tree/main/toogoodtogo-watcher"
 arch:
   - armhf
@@ -14,7 +14,39 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world..."
+  config: |
+    {
+      "api": {
+        "credentials": {
+          "email": "Email of your TooGoodToGo account."
+        },
+        "headers": {},
+      },
+      "notifications": {
+        "telegram": {
+          "enabled": true,
+          "botToken": "See README",
+          "chats": []
+        },
+        "apprise": {
+          "enabled": false,
+          "host": "apprise:8080",
+          "services": [
+            {
+              "url": "Any Apprise Notification service URL. Example: mailto://domain.com?user=userid&pass=password. See https://github.com/caronc/apprise#table-of-contents",
+              "format": "The message format, as supported by this notification service. Can be `html`, `text`"
+            }
+          ]
+        }
+      },
+      "messageFilter": {
+        "showUnchanged": false,
+        "showDecrease": false,
+        "showDecreaseToZero": false,
+        "showIncrease": false,
+        "showIncreaseFromZero": true
+      }
+    }
 schema:
-  message: "str?"
+  message: "str"
 image: "ghcr.io/marklagendijk/{arch}-toogoodtogo-watcher"
