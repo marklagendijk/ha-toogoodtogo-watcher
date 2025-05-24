@@ -1,4 +1,6 @@
-﻿#!/usr/bin/env bashio
+#!/usr/bin/env bashio
+
+echo "Test!"
 
 bashio::log.info "starting toogoodtogo-watcher"
 
