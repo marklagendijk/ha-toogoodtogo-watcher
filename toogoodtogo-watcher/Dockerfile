@@ -14,4 +14,4 @@ RUN cd / && npm install --unsafe-perm
 
 ENV NODE_ENV production
 
-ENTRYPOINT [ "/sbin/tini", "--", "/docker-entrypoint.sh"]
+CMD [ "/run.sh" ]
