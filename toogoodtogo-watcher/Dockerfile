@@ -9,10 +9,9 @@ RUN apk add --no-cache \
     nodejs \
     npm
 
-COPY package.json /
+COPY rootfs /
 RUN cd / && npm install --unsafe-perm
 
-COPY run.sh /
-RUN chmod a+x /run.sh
+ENV NODE_ENV production
 
-CMD [ "/run.sh" ]
+ENTRYPOINT [ "/sbin/tini", "--", "/docker-entrypoint.sh"]
