@@ -1,16 +1,20 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
+ENV LANG=C.UTF-8
+ENV NODE_ENV production
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 RUN apk add --no-cache \
     tzdata \
     nodejs \
     npm
 
-COPY rootfs /
-
-RUN chmod a+x /run.sh
+COPY package.json /
 RUN cd / && npm install --unsafe-perm
 
-ENV NODE_ENV production
+COPY run.sh /
+RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
