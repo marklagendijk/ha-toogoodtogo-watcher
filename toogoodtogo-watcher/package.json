@@ -1,0 +1,11 @@
+{
+  "name": "ha-toogoodtogo-watcher",
+  "version": "0.0.0",
+  "description": "Home Assistant add-on that bundles [node-toogoodtogo-watcher](https://github.com/marklagendijk/node-toogoodtogo-watcher).",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "toogoodtogo-watcher": "^4.1.0"
+  }
+}
