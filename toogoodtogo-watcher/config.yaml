@@ -2,7 +2,7 @@
 name: TooGoodToGo watcher
 version: "0.6.20"
 slug: toogoodtogo-watcher
-description: Add-on for monitoring your favorite TooGoodToGo businesses.
+description: Add-on for monitoring your favorite TooGoodToGo businesses. 
 url: "https://github.com/marklagendijk/ha-toogoodtogo-watcher/tree/main/toogoodtogo-watcher"
 arch:
   - armhf
