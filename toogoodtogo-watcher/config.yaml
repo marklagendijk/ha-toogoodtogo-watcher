@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: TooGoodToGo watcher
-version: "0.6.19"
+version: "0.6.20"
 slug: toogoodtogo-watcher
 description: Add-on for monitoring your favorite TooGoodToGo businesses.
 url: "https://github.com/marklagendijk/ha-toogoodtogo-watcher/tree/main/toogoodtogo-watcher"
@@ -12,6 +12,7 @@ arch:
   - i386
 init: false
 homeassistant_api: true
+apparmor: false
 options:
   telegramBotToken: ''
 schema:
