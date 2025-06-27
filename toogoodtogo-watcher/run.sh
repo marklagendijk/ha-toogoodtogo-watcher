@@ -1,6 +1,7 @@
 #!/usr/bin/with-contenv bashio
 
-bashio::log.info "starting toogoodtogo-watcher"
+bashio::log.info "Starting toogoodtogo-watcher"
+bashio::log.info "Reading config file from /addon_configs/2a12c4fb_toogoodtogo-watcher2/config.json. Use the Studio Code Server addon to edit the config file."
 
 cd /
 
