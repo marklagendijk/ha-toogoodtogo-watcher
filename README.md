@@ -1,6 +1,7 @@
 # Home Assistant Add-on: TooGoodToGo watcher
 
 Home Assistant add-on that bundles [node-toogoodtogo-watcher](https://github.com/marklagendijk/node-toogoodtogo-watcher).
+Main use case is notifications via Telegram. Real integration into Home Assistant using entities may follow (or not) in a later version.
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
