@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.0.4
+Update node-toogoodtogo-watcher to 4.6.3 with some MQTT bugfix.
+
 ## 1.0.3
 Update node-toogoodtogo-watcher to 4.6.2 with some MQTT bugfixes.
 
