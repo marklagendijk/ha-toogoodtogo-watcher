@@ -6,6 +6,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "toogoodtogo-watcher": "^4.5.0"
+    "toogoodtogo-watcher": "^4.6.1"
   }
 }

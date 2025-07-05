@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.0.2
+Update node-toogoodtogo-watcher to 4.6.1 which includes initial version of HomeAssistant MQTT support.
+
 ## 1.0.1
 Update node-toogoodtogo-watcher to 4.5.0.
 
