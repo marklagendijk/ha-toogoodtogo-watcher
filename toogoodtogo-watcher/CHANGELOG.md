@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.1.1
+Update node-toogoodtogo-watcher to 4.6.4 with config setting bugfix.
+
 ## 1.1.0
 Move MQTT config and TGTG email to addon options.
 
