@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.1.2
+Update node-toogoodtogo-watcher to 4.6.5 with mqtt fix to group all entities under single device.
+
 ## 1.1.1
 Update node-toogoodtogo-watcher to 4.6.4 with config setting bugfix.
 

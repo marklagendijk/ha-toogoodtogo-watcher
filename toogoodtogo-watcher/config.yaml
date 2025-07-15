@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: TooGoodToGo watcher
-version: "1.1.1"
+version: "1.1.2"
 slug: node-toogoodtogo-watcher
 description: Add-on for monitoring your favorite TooGoodToGo businesses.
 url: "https://github.com/marklagendijk/ha-toogoodtogo-watcher/tree/main/toogoodtogo-watcher"
