@@ -13,7 +13,7 @@ Integrates into HomeAssistant via MQTT.
 
 ## Setup
 1. Install the addon.
-2. Configure your TGTG email address and MQTT settings in the addon configuration.
+2. Configure your TGTG email address and MQTT settings in the 'Configuration' tab.
 3. Start the addon.
 4. Go to `Settings` => `Devices & Services` => `MQTT` => `TooGoodToGo watcher`.
 5. Click `Press` on the login button.
