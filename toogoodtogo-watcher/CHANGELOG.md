@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.2.0
+Full MQTT support as primary use case. Update node-toogoodtogo-watcher to 4.7.0 with mqtt based TGTG login.
+
 ## 1.1.3
 Update node-toogoodtogo-watcher to 4.6.5 with mqtt fix to group all entities under single device. Attempt 2.
 

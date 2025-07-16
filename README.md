@@ -13,8 +13,9 @@ Main use case is notifications via Telegram. Real integration into Home Assistan
 
 ## Setup
 1. Install the addon.
-2. Start the addon.
-3. Open the config file `/addon_configs/2a12c4fb_node-toogoodtogo-watcher/config.json` using the Studio Code Server addon.
-4. [Configure your Telegram bot token](https://github.com/marklagendijk/node-toogoodtogo-watcher/?tab=readme-ov-file#configuring-the-interactive-telegram-bot)
-5. Restart the addon.
-6. Login via your Telegram bot.
+2. Configure your TGTG email address and MQTT settings in the addon configuration.
+3. Start the addon.
+4. Go to `Settings` => `Devices & Services` => `MQTT` => `TooGoodToGo watcher`.
+5. Click `Press` on the login button.
+6. Go to your email (not on mobile) and click the link in the TGTG login email.
+7. Click `Press` on the login button.
