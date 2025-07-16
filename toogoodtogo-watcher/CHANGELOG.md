@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.2.2
+Update README.
+
 ## 1.2.1
 Update node-toogoodtogo-watcher to 4.7.1 with bugfix for mqtt login.
 
