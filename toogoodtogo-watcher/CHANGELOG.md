@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.2.4
+Update node-toogoodtogo-watcher to 4.8.0 with new `telegram.disableJoin` option.
+
 ## 1.2.3
 Update node-toogoodtogo-watcher to 4.7.2 with bugfix for polling after login.
 
