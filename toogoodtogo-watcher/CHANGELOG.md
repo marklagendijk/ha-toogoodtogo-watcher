@@ -1,5 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.2.6
+Update node-toogoodtogo-watcher to 4.8.3 with Telegram bugfix.
+
 ## 1.2.5
 Update node-toogoodtogo-watcher to 4.8.1 with TGTG bugfix.
 
